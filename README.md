@@ -13,7 +13,7 @@ I use a zip server from BSDS that I modified which was made by [СrazorTheCat](h
 3: Type python3 Main.py and it's done, follow client instructions.
 
 ### Android Client ###
-1: Download the APK here: https://www.youtube.com/watch?v=wagn8Wrmzuc
+1: Download the APK here: https://www.mediafire.com/file/v7zgn71r0gw1nqi/com.bsl.v55.apk/file
 
 2: Change redirectHost (and redirectPort if you need it) in the frida config (lib/armeabi-v7a/libBSL.config.so)
 
