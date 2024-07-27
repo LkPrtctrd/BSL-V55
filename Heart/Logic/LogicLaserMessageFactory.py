@@ -1,18 +1,15 @@
 from Heart.Packets.Client.ClientHelloMessage import ClientHelloMessage
 from Heart.Packets.Client.LoginMessage import LoginMessage
-
 from Heart.Packets.Client.ChangeAvatarNameMessage import ChangeAvatarNameMessage
 from Heart.Packets.Client.EndClientTurnMessage import EndClientTurnMessage
 from Heart.Packets.Client.GoHomeFromOfflinePractiseMessage import GoHomeFromOfflinePractiseMessage
 from Heart.Packets.Client.GoHomeMessage import GoHomeMessage
 from Heart.Packets.Client.GetPlayerProfileMessage import GetPlayerProfileMessage
-
 from Heart.Packets.Client.KeepAliveMessage import KeepAliveMessage
 from Heart.Packets.Server.LoginFailedMessage import LoginFailedMessage
 from Heart.Packets.Server.LoginOkMessage import LoginOkMessage
 from Heart.Packets.Server.OutOfSyncMessage import OutOfSyncMessage
 from Heart.Packets.Server.ServerHelloMessage import ServerHelloMessage
-
 from Heart.Packets.Server.AvailableServerCommandMessage import AvailableServerCommandMessage
 from Heart.Packets.Server.LobbyInfoMessage import LobbyInfoMessage
 from Heart.Packets.Server.OwnHomeDataMessage import OwnHomeDataMessage
@@ -26,6 +23,7 @@ class LogicLaserMessageFactory:
         10100: ClientHelloMessage,
         10101: LoginMessage,
         10108: KeepAliveMessage,
+        10212: ChangeAvatarNameMessage,
         14101: GoHomeMessage,
         14102: EndClientTurnMessage,
         15081: GetPlayerProfileMessage,
