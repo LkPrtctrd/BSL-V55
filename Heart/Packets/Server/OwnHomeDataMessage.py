@@ -354,6 +354,8 @@ class OwnHomeDataMessage(PiranhaMessage):
 
         self.writeBoolean(False)
 
+        self.writeBoolean(False)
+
         # end LogicClientHome
 
         self.writeVLong(player.ID[0], player.ID[1])
